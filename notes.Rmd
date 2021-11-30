@@ -1,5 +1,5 @@
 ---
-title: "note for 4.1"
+title: "notes"
 output: html_document
 ---
 
@@ -27,6 +27,8 @@ plot(pressure)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
+
+#4.1
 
 ```{r}
 
@@ -80,6 +82,6 @@ class("2021-01-01 12:03:33")
 class(lubridate::ymd_hms("2021-01-01 12:03:33"))
 ```
 
-
+#4.2
 
 
