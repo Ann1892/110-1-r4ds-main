@@ -59,4 +59,36 @@ subsidiaries$time_in_deli
 ```
 
 
-#
+#4.3
+```{r}
+dfExercise <- list()
+
+dataSet1 <- list(
+  name=list("John", "Mary", "Ben"),
+  age=list(33, 45, NA)
+)
+dfExercise$data1 <- list2DF(dataSet1)
+
+dataSet1$children <- list()
+dataSet1$children[[1]] <- list()
+dataSet1$children[[2]] <- list()
+dataSet1$children[[3]] <- list()
+
+
+dataSet1$children[[1]][[1]] <- list(
+                                    name= "Jane",
+                                    age = 2)
+
+dataSet1$children[[2]][[1]] <- list(
+                                    name = "Bill",
+                                    age = 3) 
+
+dataSet1$children[[2]][[2]] <- list(
+                                    name = "Ken",
+                                    age = 0)
+
+dataSet1$children[[3]][[1]] <- list(
+                                    name = "William",
+                                    age = 10)
+```
+
